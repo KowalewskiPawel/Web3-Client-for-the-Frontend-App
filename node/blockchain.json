@@ -1,0 +1,107 @@
+[
+  {
+    "hash": 0,
+    "previousHash": null,
+    "smartContracts": [],
+    "accounts": [
+      {
+        "address": "program_account",
+        "balance": 1000000000
+      },
+      {
+        "address": "shaun",
+        "balance": 1000
+      },
+      {
+        "address": "tom",
+        "balance": 1000
+      }
+    ]
+  },
+  {
+    "hash": "0087a7dfb0201d9ccc8b61e06a9fa65c71f82f069f97eb298613cc93bddf5b4e",
+    "previousHash": 0,
+    "nonce": 126,
+    "smartContracts": [
+      {
+        "pathToPkg": "../node/pkg/build_a_smart_contract_in_rust.js",
+        "state": {
+          "base_account": {
+            "total_clicks": 0,
+            "clickers": []
+          }
+        },
+        "id": 0
+      }
+    ],
+    "accounts": []
+  },
+  {
+    "hash": "00adbf9f8f460adfab88d65ff8a8330633a1cac70559c2099986f0d57cd94a24",
+    "previousHash": "0087a7dfb0201d9ccc8b61e06a9fa65c71f82f069f97eb298613cc93bddf5b4e",
+    "nonce": 12,
+    "smartContracts": [],
+    "accounts": [
+      {
+        "address": "shaun",
+        "balance": 999
+      },
+      {
+        "address": "tom",
+        "balance": 1001
+      }
+    ]
+  },
+  {
+    "hash": "007db703003a66896ba65e5d337339c15aadd9c702f2510eb69b1d967ef698b8",
+    "previousHash": "00adbf9f8f460adfab88d65ff8a8330633a1cac70559c2099986f0d57cd94a24",
+    "nonce": 17,
+    "smartContracts": [],
+    "accounts": [
+      {
+        "address": "shaun",
+        "balance": 998
+      },
+      {
+        "address": "tom",
+        "balance": 1002
+      }
+    ]
+  },
+  {
+    "hash": "00a4b78c1127f62fcd76e33897c98a8bf1867482b109bc8758d65a6dd1820601",
+    "previousHash": "007db703003a66896ba65e5d337339c15aadd9c702f2510eb69b1d967ef698b8",
+    "nonce": 1581,
+    "smartContracts": [],
+    "accounts": [
+      {
+        "address": "shaun",
+        "balance": 898
+      },
+      {
+        "address": "tom",
+        "balance": 1102
+      }
+    ]
+  },
+  {
+    "hash": "00c1f532af31cc47501f34ebe315a6f1a34fd2446ae0081bb1fa9a02a515c057",
+    "previousHash": "00a4b78c1127f62fcd76e33897c98a8bf1867482b109bc8758d65a6dd1820601",
+    "nonce": 929,
+    "smartContracts": [
+      {
+        "pathToPkg": "../node/pkg/build_a_smart_contract_in_rust.js",
+        "state": {
+          "base_account": {
+            "total_clicks": 1,
+            "clickers": [
+              "test"
+            ]
+          }
+        },
+        "id": 0
+      }
+    ],
+    "accounts": []
+  }
+]
